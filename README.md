@@ -1,107 +1,95 @@
+# 🌿 PlantSense-AI
 
-# PlantSense-AI 🌿
+PlantSense-AI is an AI-powered plant disease detection system that helps farmers and gardeners identify plant diseases using deep learning. Users can upload or capture an image of a plant leaf, and the model predicts the disease along with treatment recommendations.
 
-PlantSense-AI is a real-time agricultural intelligence system that uses Deep Learning and Visible-Range Multispectral Image Analysis to detect plant leaf diseases.
-
-Developed under the research paper **“Deep Learning-Based Plant Stress Detection Using Leaf Image Analysis”**, the system combines CNN-based disease prediction with vegetation index analysis for accurate and reliable crop monitoring.
+---
 
 ## 🚀 Features
 
-* Real-time plant disease detection using leaf images
-* Intelligent foliage validation using HSV masking
-* MobileNetV2-based deep learning classifier
-* Visible-light vegetation analysis using:
+- 🌱 Plant disease detection using CNN
+- 📷 Upload or capture leaf images
+- 🤖 AI-based disease prediction
+- 💊 Disease treatment recommendations
+- 📊 Plant health tracking
+- 💻 Responsive web interface
 
-  * Excess Green (ExG)
-  * Excess Red (ExR)
-  * VARI
-  * Greenness Percentage
-* Actionable treatment recommendations
-* Responsive React frontend with Flask backend
-
-## 🧠 Deep Learning Model
-
-The system uses a fine-tuned **MobileNetV2** model with transfer learning.
-
-### Training Strategy
-
-* **Phase 1:** Feature extraction with frozen base layers
-* **Phase 2:** Fine-tuning top layers using low learning rate and callbacks such as:
-
-  * EarlyStopping
-  * ReduceLROnPlateau
-
-## 🌱 Supported Crops & Diseases
-
-### Pepper
-
-* Bacterial Spot
-* Healthy
-
-### Potato
-
-* Early Blight
-* Late Blight
-* Healthy
-
-### Tomato
-
-* Bacterial Spot
-* Early Blight
-* Late Blight
-* Leaf Mold
-* Septoria Leaf Spot
-* Spider Mites
-* Target Spot
-* Yellow Leaf Curl Virus
-* Mosaic Virus
-* Healthy
+---
 
 ## 🛠️ Tech Stack
 
 ### Frontend
-
-* React 19
-* Vite
-* Axios
+- React.js
+- HTML
+- CSS
+- JavaScript
 
 ### Backend
+- Flask (Python)
 
-* Flask REST API
-* TensorFlow / Keras
+### AI/ML
+- TensorFlow
+- Keras
+- Convolutional Neural Networks (CNN)
+
+### Others
+- NumPy
+- OpenCV
+- Git & GitHub
+
+---
 
 ## 📂 Project Structure
 
-* `app.py` – Backend API
-* `train_model.py` – Model training
-* `frontend/` – React frontend
-* `model/` – Trained model weights
-* `class_indices.json` – Class mappings
+```
+PlantSense-AI
+│
+├── frontend/
+├── model/
+├── static/
+├── app.py
+├── train_model.py
+├── requirements.txt
+└── README.md
+```
 
-## ▶️ Setup Instructions
+---
 
-### Backend
+## ⚙️ Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/Monisha-JR/PlantSense-AI.git
+```
+
+Navigate to the project
+
+```bash
+cd PlantSense-AI
+```
+
+Install dependencies
 
 ```bash
 pip install -r requirements.txt
+```
+
+Run the application
+
+```bash
 python app.py
 ```
 
-### Frontend
+---
 
-```bash
-cd frontend
-npm install
-npm run dev
-```
+## 📸 Screenshots
 
-## 📄 Research Details
+Add screenshots of your application here.
 
-**Paper Title:** Deep Learning-Based Plant Stress Detection Using Leaf Image Analysis
+---
 
-**Author:**
-Ranjitha Prabha P
+## 👩‍💻 Author
 
-**Institution:**
-Department of Computer Science and Engineering
-St. Joseph’s Institute of Technology, Chennai, India
+**Monisha J R**
+
+GitHub: https://github.com/Monisha-JR
