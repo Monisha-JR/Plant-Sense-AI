@@ -84,7 +84,19 @@ python app.py
 
 ## 📸 Screenshots
 
-Add screenshots of your application here.
+## 📷 Screenshots
+
+### Home Page
+
+![Home Page](Screenshots/Home page.jpeg)
+
+### Image Upload
+
+![Image Upload](Screenshots/image upload.jpeg)
+
+### Disease Detection
+
+![Disease Detection](Screenshots/detection.jpeg)
 
 ---
 
