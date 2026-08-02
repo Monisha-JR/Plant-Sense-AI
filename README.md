@@ -88,11 +88,11 @@ python app.py
 
 ### Home Page
 
-![Home Page](Screenshots/Home page.jpeg)
+![Home Page](Screenshots/Home.jpeg)
 
 ### Image Upload
 
-![Image Upload](Screenshots/image upload.jpeg)
+![Image Upload](Screenshots/imageupload.jpeg)
 
 ### Disease Detection
 
